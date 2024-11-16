@@ -3,17 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>GeoHelp</title>
+  <style> 
+    body {
+    background-color: black;
+    }
+    form {
+    width:400px;
+    margin:auto;
+    margin-top: 250px;
+    }
+    input{
+    padding:4px 10px;
+    border:0;
+    font-size:16px;
+    }
+    .search {
+    width: 75%;
+    }
+    .submit{
+    width: 70px;
+    background-color: #1c87c9;
+    color:#ffffff;
+    }
+    ::-webkit-input-placeholder {
+text-align:center;
+}
+  </style>
 </head>
 <body>
   <form>
-    <label> Введите ваше имя <input type="text"></label>
-  </form>
-  <form>
-      Email <input id="email" type="email">
-  </form>
-  <form>
-    Телефон <input type="tel" id="tel" placeholder="Введите телефон">
-  </form>
+    <font color="white"; align="center" face="Calibri">
+    <h2>Поиск</h2></font>
+    <form> 
+      <input type="text" name=text" class="search" placeholder="Введите страну...">
+      <input type="submit" name="submit" class="submit" value="Search">
+    </form>
+<p>Россиия</p>
 </body>
 </html>
