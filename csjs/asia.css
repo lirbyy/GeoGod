@@ -1,0 +1,116 @@
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: "Archivo Black", sans-serif;
+  background-size: contain;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 6vw;
+  line-height: 5vw;
+  box-shadow: 
+  0 0 0.1em #000000, 
+  0 0 0.2em #000000, 
+  0 0 0.1em #000000;
+  border-radius: 20px;
+ }
+ @import url(https://fonts.bunny.net/css?family=abeezee:400|archivo-black:400);
+ body {
+   vertical-align: middle;
+   margin: 0;
+   padding: 0;
+   background-color: #2e2e2e;
+ }
+ main {
+   font-size: 1em;
+ }
+ .im {
+   display: block;
+   text-align: center;
+ }
+ .bangladeshflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Bangladesh/Flag_of_Bangladesh.svg.png");
+   display:table;
+ }
+ .Butanflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Butan/Flag_of_Bhutan.svg.png");
+   display:table;
+ }
+ .Cambodiaflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Cambodia/Flag_of_Cambodia.svg.png");
+   display:table;
+ }
+ .chinaflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/China/Flag_of_the_People's_Republic_of_China.svg.png");
+   display:table;
+ }
+ .indiaflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/India/Flag_of_India.svg.png");
+   display:table;
+ }
+ .indonesiaflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Indonesia/Flag_of_Indonesia.svg");
+   display:table;
+ }
+ .japanflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Japan/Flag_of_Japan.svg.png");
+   display:table;
+ }
+ .kazakhstanflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Kazakhstan/flagKazakhstan.png");
+   display:table;
+ }
+ .kyrgystanflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Kyrgyzstan/Flag_of_Kyrgyzstan.svg.png");
+   display:table;
+ }
+ .laosflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Laos/flaglaos.png");
+   display:table;
+ }
+ .malaysiaflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Malaysia/Flag_of_Malaysia.svg.png");
+   display:table;
+ }
+ .mongoliaflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Mongolia/Flag_of_Mongolia.svg.png");
+   display:table;
+ }
+ .pakistanflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Pakistan/Flag_of_Pakistan.svg.png");
+   display:table;
+ }
+ .philliphinesflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Philliphines/Flag_of_the_Philippines.svg.png");
+   display:table;
+ }
+ .russiaflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Russia/Flag_of_Russia.svg");
+   display:table;
+ }
+ .singaporeflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Singapore/Flag_of_Singapore.svg.png");
+   display:table;
+ }
+ .southkoreaflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/SouthKorea/Flag_of_South_Korea.svg");
+   display:table;
+ }
+ .sri_lankaflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Sri%20Lanka/Flag_of_Sri_Lanka.svg");
+   display:table;
+ }
+ .taiwanflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Taiwan/Flag_of_the_Republic_of_China.svg");
+   display:table;
+ }
+ .thailandflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Thailand/Flag_of_Thailand.svg.png");
+   display:table;
+ }
+ .turkeyflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Asia/Turkey/Flag_of_Turkey.svg");
+   display:table;
+ }

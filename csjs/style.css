@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+80s+Fade&family=Rubik+Broken+Fax&family=Rubik+Mono+One&family=Seymour+One&family=Unbounded:wght@200..900&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  padding:0; margin:0;
+  caret-color: transparent;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('');
+  background-size: cover;
+  background-color: #1b1b1b;
+}
+.content{
+  margin: 0;
+  flex: 1; /* Занимает доступное пространство */
+
+  padding: 10px;
+}
+.button{
+  margin-top: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.button a{
+  position: relative;
+  width: 147px;
+  height: 50px;
+  display: flex;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 0 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.button a:before,
+.button a:after
+{
+content:'';
+  position: absolute;
+  inset: 0;
+  transition: 0.5s;
+  border-radius: 10px;
+  background: rgb(111, 0, 255)
+}
+.button a:hover:before
+{
+  inset: -3px;  
+}
+.button a:hover:after
+{
+  inset: -3px;  
+  filter: blur(10px);
+}
+.button a span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: #1b0275;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(76, 0, 255, 0.76);
+  overflow: hidden;
+  transition: color 0.3s ease;
+}
+.button a span::before{
+content:'';
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.075);
+    transform: skew(25deg)
+  
+}
+.button a:hover span { 
+  color: rgb(255, 255, 255);
+  background-color: var(--hover-color);
+  text-shadow: 0 -40px 70px, 0 0 2px, 0 0 1em #b879ff, 0 0 0.5em #b879ff, 0 0 0.1em #BFE2FF;
+}
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #5e00b6c9;
+  background-size: cover ;
+  z-index: 1000;
+  border-bottom: 5px solid #000000 ;
+  padding: 20px 10px;
+  align-items: flex-start;
+
+}
+.wrap-logo {
+  height: 20px;
+  width: 171px;
+  align-items: center;
+  align-items: flex-start;
+}
+@media (min-width: 1200px) {
+  .wrap-logo {
+    width: 1170px; /* Ограничиваем ширину логотипа для больших экранов */
+  }
+}
+header a {
+  position: absolute;
+  right: 50px;
+  color: #f8f8f8;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 18px; 
+  border-radius: 4px;
+  background-color: #3a0070;
+  transition: all 0.2s ease-in-out;
+  position: relative; /* Чтобы текст был выше размытого фона */
+}
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+header a:hover {
+  background-color: #1a1a1a;
+  color: #ffc23d;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+header a.active {
+  background-color: #000000;
+}
+nav {
+display: flex;
+  align-items: center;
+  gap: 10px;
+  }
+  header img {
+    margin: -30px;
+    margin-left: -10px;
+    height: 100px;
+    width: 100px;
+  }
+  .active-background {
+    background-color: black; /* Цвет фона при нажатии */
+    color: white; /* Цвет текста при нажатии */
+}
+.sign-wrap-4 .sign_word {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-top: -50px;
+  margin-left: 80px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #b879ff, 0 0 0.5em #b879ff, 0 0 0.1em #BFE2FF;
+}
+.sign-wrap-4 .sign_word span {
+  animation: neon-4 linear infinite 2s;
+}
+@keyframes neon-4 {
+  78% {
+      color: inherit;
+      text-shadow: inherit;
+  }
+  79%{
+      color: #0b3960;
+  }
+  80% {
+      text-shadow: none;
+  }
+  81% {
+      color: inherit;
+      text-shadow: inherit;
+  }
+  82% {
+      color: #0b3960;
+      text-shadow: none;
+  }
+  83% {
+      color: inherit;
+      text-shadow: inherit;
+  }
+  92% {
+      color: #0b3960;
+      text-shadow: none;
+  }
+  92.5% {
+      color: inherit;
+      text-shadow: inherit;
+  }
+}
+footer {
+  bottom: 0; /* Прикрепление к нижней части окна */
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #111111; /* Цвет фона */
+  color: white; /* Цвет текста */
+  padding: 10px; /* Отступы */
+  text-align: center; /* Выравнивание текста по центру */
+}
+.fixed {
+  position: fixed;
+}

@@ -1,0 +1,108 @@
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: "Archivo Black", sans-serif;
+  background-size: contain;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 6vw;
+  line-height: 5vw;
+  box-shadow: 
+  0 0 0.1em #000000, 
+  0 0 0.2em #000000, 
+  0 0 0.1em #000000;
+  border-radius: 20px;
+ }
+ @import url(https://fonts.bunny.net/css?family=abeezee:400|archivo-black:400);
+ body {
+   vertical-align: middle;
+   margin: 0;
+   padding: 0;
+   background-color: #2e2e2e;
+ }
+ main {
+   font-size: 1em;
+ }
+ .im {
+   display: block;
+   text-align: center;
+ }
+/*american*/
+ .amsaflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/American/American%20Samoa/Flag_of_American_Samoa.svg.png");
+   display:table;
+ }
+ .curasaoflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/American/Curasao/Flag_of_Cur.png");
+   display:table;
+ }
+ .guamflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/American/Guam/flagguam.png");
+   display:table;
+ }
+ .hawaiflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/American/Hawai/flaghl.png");
+   display:table;
+ }
+ .maflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/American/Midway%20Atoll/flagma.png");
+   display:table;
+ }
+ .nmflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/American/Northern%20Mariana/flagnmis.png");
+   display:table;
+ }
+ .usvflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/American/United%20States%20Virgin/Flag_of_the_United_States_Virgin_Islands.svg.png");
+   display:table;
+ }
+/*american*/
+/*australian*/
+.chrisflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/Australian/Christmas%20Island/flagchristmas.png");
+  display:table;
+}
+.cocosflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/Australian/Cocos%20Island/Flag_of_the_Cocos_(Keeling)_Islands.svg.png");
+  display:table;
+}
+/*australian*/
+/*columbian*/
+.sanandresflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/Columbian/San%20Andres/flagsa.png");
+  display:table;
+}
+/*columbian*/
+/*danian*/
+.danianflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/Danian/flagfi.png");
+  display:table;
+}
+/*danian*/
+/*england*/
+.bermudaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/England/Bermuda/flagbermuda.png");
+  display:table;
+}
+.iomflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/England/Isle%20of%20Man/flagisofman.png");
+  display:table;
+}
+.jerseyflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/England/Jersey/flagjer.png");
+  display:table;
+}
+/*england*/
+/*france*/
+.corseflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/France/Corse/Flag_of_Corsica.svg.png");
+  display:table;
+}
+.reunionflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Island/France/Reunion/flagri.png");
+  display:table;
+}
+/*france*/

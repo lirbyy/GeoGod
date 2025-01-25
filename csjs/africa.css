@@ -1,0 +1,80 @@
+h1 {
+ text-transform: uppercase;
+ font-weight: bold;
+ font-size: 5vw;
+ font-family: "Archivo Black", sans-serif;
+ background-size: contain;
+ -webkit-background-clip: text;
+ background-clip: text;
+ -moz-text-fill-color: transparent;
+ -webkit-text-fill-color: transparent;
+ margin: 6vw;
+ line-height: 5vw;
+ box-shadow: 
+ 0 0 0.1em #000000, 
+ 0 0 0.2em #000000, 
+ 0 0 0.1em #000000;
+ border-radius: 20px;
+}
+@import url(https://fonts.bunny.net/css?family=abeezee:400|archivo-black:400);
+body {
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  background-color: #2e2e2e;
+}
+main {
+  font-size: 1em;
+}
+.im {
+  display: block;
+  text-align: center;
+}
+.botsflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Africa/Botswana/flag.jpg");
+  display:table;
+}
+.ghanaflag {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/1920px-Flag_of_Ghana.svg.png");
+  display:table;
+}
+.eswaflag {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/1920px-Flag_of_Eswatini.svg.png");
+  display:table;
+}
+.kenyaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Africa/Kenya/flagkenya.png");
+  display:table;
+}
+.lesotoflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Africa/Lesotho/lesothoflag.png");
+  display:table;
+}
+.madagasflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Africa/Madagascar/flagmadagascar.png");
+  display:table;
+}
+.nigeriaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Africa/Nigeria/FlagNigeria.png");
+  display:table;
+}
+.rwandaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Africa/Rwanda/Flag_of_Rwanda.svg");
+  display:table;
+}
+.senegalflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Africa/Senegal/Flag_of_Senegal.svg.png");
+  display:table;
+}
+.tunisflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Africa/Tunis/Flag_of_Tunisia.svg.png");
+  display:table;
+}
+.uarflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Africa/UAR/Flag_of_South_Africa.svg.png");
+  display:table;
+}
+.ugandaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Africa/UAR/Flag_of_South_Africa.svg.png");
+  display:table;
+}

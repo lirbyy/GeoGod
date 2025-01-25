@@ -1,0 +1,60 @@
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: "Archivo Black", sans-serif;
+  background-size: contain;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 6vw;
+  line-height: 5vw;
+  box-shadow: 
+  0 0 0.1em #000000, 
+  0 0 0.2em #000000, 
+  0 0 0.1em #000000;
+  border-radius: 20px;
+ }
+ @import url(https://fonts.bunny.net/css?family=abeezee:400|archivo-black:400);
+ body {
+   vertical-align: middle;
+   margin: 0;
+   padding: 0;
+   background-color: #2e2e2e;
+ }
+ main {
+   font-size: 1em;
+ }
+ .im {
+   display: block;
+   text-align: center;
+ }
+ .brazilflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/South%20America/Brazil/Flag_of_Brazil.svg.png");
+   display:table;
+ }
+ .chillieflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/South%20America/Chilie/Flag_of_Chile.svg.png");
+  display:table;
+}
+ .columbiaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/South%20America/Columbia/Flag_of_Colombia.svg.png");
+  display:table;
+}
+ .panamaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/South%20America/Panama/Flag_of_Panama.svg.png");
+  display:table;
+}
+ .peruflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/South%20America/Peru/Flag_of_Peru_(state).svg");
+  display:table;
+}
+ .puertoflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/South%20America/Puerto%20Rico/Flag_of_Puerto_Rico.svg.png");
+  display:table;
+}
+ .uruguayflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/South%20America/Uruguay/Flag_of_Uruguay.svg.png");
+  display:table;
+}

@@ -1,0 +1,188 @@
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: "Archivo Black", sans-serif;
+  background-size: contain;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 6vw;
+  line-height: 5vw;
+  box-shadow: 
+  0 0 0.1em #000000, 
+  0 0 0.2em #000000, 
+  0 0 0.1em #000000;
+  border-radius: 20px;
+ }
+ @import url(https://fonts.bunny.net/css?family=abeezee:400|archivo-black:400);
+ body {
+   vertical-align: middle;
+   margin: 0;
+   padding: 0;
+   background-color: #2e2e2e;
+ }
+ main {
+   font-size: 1em;
+ }
+ .im {
+   display: block;
+   text-align: center;
+ }
+ .albaniaflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Albania/Flag_of_Albania.svg");
+   display:table;
+ }
+ .andorraflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Andorra/Flag_of_Andorra.svg.png");
+  display:table;
+}
+.austriaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Austria/Flag_of_Austria.svg.png");
+  display:table;
+}
+.belgiumflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Belgium/Flag_of_Belgium.svg.png");
+  display:table;
+}
+.bulgariaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Bulgaria/Flag_of_Bulgaria.svg.png");
+  display:table;
+}
+.czechiaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Czechia/Flag_of_the_Czech_Republic.svg");
+  display:table;
+}
+.denmarkflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Denmark/Flag_of_Denmark.svg");
+  display:table;
+}
+.estoniaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Estonia/Flag_of_Estonia.svg.png");
+  display:table;
+}
+.finlandflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Finland/Flag_of_Finland.svg");
+  display:table;
+}
+.franceflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/France/Flag_of_France.svg.png");
+  display:table;
+}
+.germanyflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Germany/Flag_of_Germany.svg");
+  display:table;
+}
+.gibraltarflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Gibraltar/Flag_of_Gibraltar.svg.png");
+  display:table;
+}
+.greeceflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Greece/Flag_of_Greece.svg.png");
+  display:table;
+}
+.hungaryflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Hungary/Flag_of_Hungary.svg.png");
+  display:table;
+}
+.icelandflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Iceland/Flag_of_Iceland.svg.png");
+  display:table;
+}
+.irelandflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Ireland/Flag_of_Ireland.svg.png");
+  display:table;
+}
+.italyflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Italy/Flag_of_Italy.svg.png");
+  display:table;
+}
+.latviaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Latvia/Flag_of_Latvia.svg.png");
+  display:table;
+}
+.liechtensteinflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Liechtenstein/Flag_of_Liechtenstein.svg.png");
+  display:table;
+}
+.lithuaniaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Lithuania/Flag_of_Lithuania.svg.png");
+  display:table;
+}
+.luxembourgflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Luxembourg/Flag_of_Luxembourg.svg.png");
+  display:table;
+}
+.maltaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Malta/Flag_of_Malta.svg.png");
+  display:table;
+}
+.monacoflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Monaco/Flag_of_Monaco.svg.png");
+  display:table;
+}
+.montenegroflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Montenegro/Flag_of_Montenegro.svg.png");
+  display:table;
+}
+.netherlandsflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Netherlands/Flag_of_the_Netherlands.svg.png");
+  display:table;
+}
+.northmacedoniaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/NorthMacedonia/Flag_of_North_Macedonia.svg.png");
+  display:table;
+}
+.norwayflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Norway/Flag_of_Norway.svg.png");
+  display:table;
+}
+.polandflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Poland/Flag_of_Poland.svg.png");
+  display:table;
+}
+.portugalflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Portugal/Flag_of_Portugal.svg.png");
+  display:table;
+}
+.romaniaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Romania/Flag_of_Romania.svg.png");
+  display:table;
+}
+.san-marinoflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/San%20Marino/Flag_of_San_Marino.svg.png");
+  display:table;
+}
+.Serbiaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Serbia/Flag_of_Serbia.svg.png");
+  display:table;
+}
+.slovakiaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Slovakia/Flag_of_Slovakia.svg.png");
+  display:table;
+}
+.sloveniaflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Slovenia/Flag_of_Slovenia.svg");
+  display:table;
+}
+.spainflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Spain/Spainflag.png");
+  display:table;
+}
+.swedenflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Sweden/Flag_of_Sweden.svg.png");
+  display:table;
+}
+.swizerlandflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Swizerland/Flag_of_Switzerland_(Pantone).svg.png");
+  display:table;
+}
+.ukraineflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/Ukraine/Flag_of_Ukraine.svg.webp");
+  display:table;
+}
+.united_kingdomflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Europe/United%20Kingdom/Flag_of_the_United_Kingdom_(1-2).svg.png");
+  display:table;
+}

@@ -1,0 +1,40 @@
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: "Archivo Black", sans-serif;
+  background-size: contain;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 6vw;
+  line-height: 5vw;
+  box-shadow: 
+  0 0 0.1em #000000, 
+  0 0 0.2em #000000, 
+  0 0 0.1em #000000;
+  border-radius: 20px;
+ }
+ @import url(https://fonts.bunny.net/css?family=abeezee:400|archivo-black:400);
+ body {
+   vertical-align: middle;
+   margin: 0;
+   padding: 0;
+   background-color: #2e2e2e;
+ }
+ main {
+   font-size: 1em;
+ }
+ .im {
+   display: block;
+   text-align: center;
+ }
+ .australiaflag {
+   background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Oceania/Australia/Flag_of_Australia_(converted).svg.png");
+   display:table;
+ }
+ .newzeelandflag {
+  background-image: url("https://rovctztsectvagpvjrqf.supabase.co/storage/v1/object/public/image/Oceania/New%20Zeeland/Flag_of_New_Zealand.svg");
+  display:table;
+}
