@@ -1,8 +1,8 @@
         // Получаем все ссылки
-        const links = document.querySelectorAll('a[data-content]');
+        const link = document.querySelectorAll('a[data-content]');
 
         // Обработчик событий для ссылок
-        links.forEach(link => {
+        link.forEach(link => {
             link.addEventListener('click', event => {
                 event.preventDefault(); // Отменяем переход по ссылке
 
